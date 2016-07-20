@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+  <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+  <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+  <title>Brunch with ES6</title>
+  <link rel="stylesheet" href="/app.css">
+  <style type="text/css">
+  body {
+    background: #FFF;
+
+  }
+    #app {
+      font-size: 14px;
+      font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+    }
+    #app > div {
+      margin: 100px 0;
+    }
+  </style>
+</head>
+<body>
+  <div id="app" class="ui container">
+    <div class="ui card">
+      <div class="image">
+        <img src="/images/avatar2/large/kristy.png">
+      </div>
+      <div class="content">
+        <a class="header">Kristy</a>
+        <div class="meta">
+          <span class="date">Joined in 2013</span>
+        </div>
+        <div class="description">
+          Kristy is an art director living in New York.
+        </div>
+      </div>
+      <div class="extra content">
+        <a>
+          <i class="user icon"></i>
+          22 Friends
+        </a>
+      </div>
+    </div>
+  </div>
+
+<!--   <script>
+    window.brunch = window.brunch || {};
+    window.brunch.server = '127.0.0.1';
+  </script> -->
+  <script src="/vendor.js"></script>
+  <script src="/app.js"></script>
+  <script>
+    require('initialize');
+
+  </script>
+</body>
+</html>

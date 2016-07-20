@@ -1,0 +1,23 @@
+// @import url(http://fonts.googleapis.com/css?family=Roboto+Slab);
+
+$default-bg: lightblue;
+$default-text: black;
+
+$roboto-slab: 'Roboto Slab';
+
+body {
+  font-family: $roboto-slab;
+  font-size: 16px;
+  background: $default-bg;
+  color: $default-text;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0.5em 0 1em;
+
+  & > small {
+    color: red;
+    font-size: 70%;
+  }
+}
